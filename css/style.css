@@ -1,0 +1,94 @@
+.login__page {
+  width: 1560px;
+  height: 720px;
+  background: #fafafa 0% 0% no-repeat padding-box;
+}
+
+.image__container {
+  max-width: 576px;
+  max-height: 576px;
+  margin: 72px 162px 72px 166px;
+  float: left;
+}
+
+.hero__image {
+  border-radius: 50%;
+  background: transparent url("img/Ellipse 2.png") 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 31px #0000000a;
+  opacity: 1;
+  border: 20px solid #ffffff;
+}
+
+.logo__image {
+  margin: 106px 382px 0 0;
+}
+
+.main__text {
+  color: #3e3e3e;
+  font: normal normal 400 40px/47px Roboto;
+  margin: 20px 155px 0 0;
+}
+
+span {
+  color: #c8242f;
+  font-weight: bold;
+}
+
+.login__text {
+  font: normal normal normal 25px/33px Roboto;
+  color: #3e3e3e;
+}
+
+input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #adadad;
+  border-radius: 5px;
+  width: 429px;
+  height: 49px;
+}
+
+input:hover {
+  border-color: aqua;
+}
+
+#username {
+  margin: 23px 0 0 0;
+}
+
+#password {
+  margin: 27px 0 0 0;
+}
+
+::placeholder {
+  padding: 15px 0px 15px 15px;
+  font: normal normal normal 15px/20px Roboto;
+}
+
+.login__button {
+  width: 138px;
+  height: 45px;
+  margin: 30px 0 0 0;
+  border-radius: 23px;
+  background-color: #c8242f;
+  color: #ffffff;
+  border: 0px;
+  font-size: medium;
+}
+
+.forgot__text {
+  margin: 43px 0 0 170px;
+  color: #adadad;
+  font: normal normal normal 15px/20px Roboto;
+}
+
+.new__member__text {
+  color: #adadad;
+  font: normal normal normal 15px/20px Roboto;
+  margin: 23px 0 0 0;
+}
+
+.register_text {
+  font: normal normal normal 15px/20px Roboto;
+  color: #c8242f;
+  text-decoration: none;
+}
