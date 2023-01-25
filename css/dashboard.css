@@ -1,0 +1,27 @@
+.navbar {
+    width: 1560px;
+    height: 80px;
+}
+
+.menu__bar {
+    padding: 34px 0 34px 29px;
+    max-height: 16px;
+}
+
+.logo {
+    margin-left: 25px;
+    padding:25px 0 25px 0;
+    max-height: 30px;
+}
+
+.serch__icon {
+    margin-left: 77px;
+    padding:32px 0 32px 0;
+    max-width: 16px;
+    max-height: 16px;
+}
+
+.serch__text {
+    margin-left: 15px;
+    padding: 28px 0 30px 0px;
+}
