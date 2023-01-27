@@ -1,19 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/dashboard.css" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/dashboard.css" type="text/css" />
     <title>Dashboard</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar">
-        <img src="./images/HTML-Assignemnt-Assets/menu-bar.svg" class="menu__bar"  alt="menubar icon" >
-        <img  src= "./images/HTML-Assignemnt-Assets/logo.svg" class="logo" alt="logo" >
-        <img  src="./images/HTML-Assignemnt-Assets/search-icon.svg" class="serch__icon" alt="serch icon" >
-        <span class="serch__text">Serch</span>
-    </nav>
-
+      <img
+        src="./images/HTML-Assignemnt-Assets/menu-bar.svg"
+        class="menu__bar"
+        alt="menubar icon"
+      />
+      <img
+        src="./images/HTML-Assignemnt-Assets/logo.svg"
+        class="logo"
+        alt="logo"
+      />
     
-</body>
+      <img 
+        src="./images/HTML-Assignemnt-Assets/search-icon.svg"
+        class="serch__icon"
+        alt="serch icon"
+      /> 
+      <span class="serch__text">Serch</span>
+     
+   
+      <img
+        src="./images/HTML-Assignemnt-Assets/notification-icon.svg"
+        alt="notification icon"
+        class="notification__icon"
+      />
+      <img
+        src="./images/HTML-Assignemnt-Assets/profile.png"
+        alt="profilte image"
+        class="profile__image"
+      />
+      <span class="johndoe__text">John Doe</span> 
+      <img
+        src="./images/HTML-Assignemnt-Assets/downward-arrow.svg"
+        alt="downword arrow "
+        class="downword__arrow"
+      />
+    </nav>
+    <div class="main__section">
+      <aside>
+        <div class="red__box">
+          <img
+            src="./images/HTML-Assignemnt-Assets/dashboard-active.svg"
+            alt="dashboard icon"
+            class="dashboard__icon"
+          />
+          <span class="dashboard__text">Dashboard</span>
+        </div>
+        <div class="box">
+          <img
+            src="./images/HTML-Assignemnt-Assets/graph-default.svg"
+            alt="graph icon"
+            class="aside__icon"
+          />
+          <span class="Analysis__text">Analysis</span>
+        </div>
+        <div class="box">
+          <img
+            src="./images/HTML-Assignemnt-Assets/inbox-default.svg"
+            alt="inbox icon"
+            class="aside__icon"
+          />
+          <span class="inbox__text">Inbox</span>
+        </div>
+        <div class="box">
+          <img
+            src="./images/HTML-Assignemnt-Assets/clock-default.svg"
+            alt="clock icon"
+            class="aside__icon"
+          />
+          <span class="clock__text">History</span>
+        </div>
+        <div class="box">
+          <img
+            src="./images/HTML-Assignemnt-Assets/user-default.svg"
+            alt="users icon"
+            class="aside__icon"
+          />
+          <span class="users__text">Users</span>
+        </div>
+        <div class="box">
+          <img
+            src="./images/HTML-Assignemnt-Assets/maintenance-default.svg"
+            alt="maintenance icon"
+            class="aside__icon"
+          />
+          <span class="maintenance__text">Maintenance</span>
+        </div>
+        <div class="box">
+          <img
+            src="./images/HTML-Assignemnt-Assets/setting-default.svg"
+            alt="setting icon"
+            class="aside__icon"
+          />
+          <span class="setting__text">Setting</span>
+        </div>
+      </aside>
+      <div class="dashboard__section">
+        <div class="rightside__dashboard__text">Dashboard</div>
+
+        <div class="active__boxes">
+          <div class="box-1">
+            <img
+              src="./images/HTML-Assignemnt-Assets/star.svg"
+              alt="newproduct logo"
+              class="newproduct__logo"
+            />
+            <p class="newproduct__text">
+              23456 <br />
+              <span style="font-size: 15px">New Products</span>
+            </p>
+          </div>
+          <div class="box-2">
+            <img
+              src="./images/HTML-Assignemnt-Assets/new-product.svg"
+              alt="newproduct logo"
+              class="newproduct__logo"
+            />
+            <p class="newproduct__text">
+              2345 <br />
+              <span style="font-size: 15px">Added Products</span>
+            </p>
+          </div>
+          <div class="box-2">
+            <img
+              src="./images/HTML-Assignemnt-Assets/total-product.svg"
+              alt="totalproduct logo"
+              class="newproduct__logo"
+            />
+            <p class="newproduct__text">
+              32,456 <br />
+              <span style="font-size: 15px">Total Products</span>
+            </p>
+          </div>
+          <div class="box-2">
+            <img
+              src="./images/HTML-Assignemnt-Assets/dollar-filled.svg"
+              alt="dollar logo"
+              class="newproduct__logo"
+            />
+            <p class="newproduct__text">
+              5678 <br />
+              <span style="font-size: 15px">Today’s Sale</span>
+            </p>
+          </div>
+          <div class="box-2">
+            <img
+              src="./images/HTML-Assignemnt-Assets/money-bag.svg"
+              alt="moneybag logo"
+              class="newproduct__logo"
+            />
+            <p class="newproduct__text">
+              33,5342<br />
+              <span style="font-size: 15px">Total Sale</span>
+            </p>
+          </div>
+        </div>
+        <div class="graph__section">
+          <div class="datagraph__section">
+            <span class="sale__text">Sale</span> <span class="timeseries">weekly &ensp;  monthly <span style="color: #C8242F ; text-decoration: underline;">&ensp;    yearly</span></span> <br /><br />
+            <img
+              src="./images/HTML-Assignemnt-Assets/data-graph.png"
+              alt="data graph"
+              class="data__graph"
+            />
+          </div>
+
+          <div class="bargraph__section">
+            <span class="salesbycountry__text">Sales by Country</span><br />
+            <img
+              src="./images/HTML-Assignemnt-Assets/pie-chart.svg"
+              alt="pie chart"
+              class="pie__chart"
+            />
+            <br />
+            <div
+              style="
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+                float: left;
+              "
+            >
+              <img
+                src="./images/HTML-Assignemnt-Assets/radio-checked-icon.svg"
+                alt="red dot"
+                class="red__dot"
+              />
+              <span class="country__text">United States of America</span>
+            </div>
+            <div
+              style="
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+                float: left;
+              "
+            >
+              <img
+                src="./images/HTML-Assignemnt-Assets/green button.svg"
+                alt="green dot"
+                class="green__dot"
+              />
+              <span class="country__text">Canada</span>
+            </div>
+            <br /><br />
+            <div
+              style="
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+                float: left;
+              "
+            >
+              <img
+                src="./images/HTML-Assignemnt-Assets/orange button.svg"
+                alt="orange dot"
+                class="orange__dot"
+              />
+              <span class="country__text" style="margin-right: 147px"
+                >Russia</span
+              >
+            </div>
+            <div style="display: flex; flex-wrap: nowrap; align-items: center">
+              <img
+                src="./images/HTML-Assignemnt-Assets/yellow-button.svg"
+                alt="yellow dot"
+                class="yellow__dot"
+              />
+              <span class="country__text">India</span>
+            </div>
+           
+          </div>
+        </div>
+        <div  class="invoice__section"> 
+            <span class="Invoices__text">Invoices</span> <span class="viewall__text">View All</span> <br><br>
+            
+            <table id="table" style="width:100%" >
+                <thead id="table-head">
+                <th >INVOICE</th>
+                <th>COMPANY NAME</th>
+                <th>EMAIL</th>
+                <th>DUE DATE</th>
+                <th>STATUS</th>
+                <th>AMOUNT</th>
+            </thead>
+                <tr id="row-one">
+                    <td>651535</td>
+                    <td>Public Adjusting Firm</td>
+                    <td>georgia.young@example.com</td>
+                    <td>24 May, 2020</td>
+                    <td id="paid">Paid</td>
+                    <td>$47,800</td>
+                </tr>
+
+                <tr id="row-two">
+                    <td>558612</td>
+                    <td>Other</td>
+                    <td>jessica.hanson@example.com</td>
+                    <td>24 May, 2020</td>
+                    <td id="paid">Paid</td>
+                    <td>$98,000</td>
+                </tr>
+
+                <tr id="row-three">
+                    <td>558612</td>
+                    <td>Vendor</td>
+                    <td>alma.lawson@example.com</td>
+                    <td>8 Sep, 2020</td>
+                    <td id="paid">Paid</td>
+                    <td>$20,900</td>
+                </tr>
+
+                <tr id="row-four">
+                    <td>558612</td>
+                    <td>Property Management Company</td>
+                    <td>kenzi.lawson@example.com</td>
+                    <td>22 Oct, 2020</td>
+                    <td id="paid">Paid</td>
+                    <td>$10,570</td>
+                </tr>
+
+                <tr id="row-five">
+                    <td>651535</td>
+                    <td>Subcontractor Company</td>
+                    <td>jackson.graham@example.com</td>
+                    <td>1 Feb, 2020</td>
+                    <td id="failed">Failed</td>
+                    <td>$10,200</td>
+                </tr>
+
+                <tr id="row-six">
+                    <td>651535</td>
+                    <td>Mortgage Company</td>
+                    <td>felicia.reid@example.com</td>
+                    <td>22 Oct, 2020</td>
+                    <td id="pending">Pending</td>
+                    <td>$12,600</td>
+                </tr>
+
+                <tr id="row-seven">
+                    <td>487431</td>
+                    <td>TPA</td>
+                    <td>dolores.chambers@example.com</td>
+                    <td>21 Sep, 2020</td>
+                    <td id="paid">Paid</td>
+                    <td>$11,170</td>
+                </tr>
+
+                <tr id="row-eight">
+                    <td>267400</td>
+                    <td>Fire Department</td>
+                    <td>nevaeh.simmons@example.com</td>
+                    <td>17 Oct, 2020</td>
+                    <td>Failed</td>
+                    <td>$28,000</td>
+                </tr>
+
+                <tr id="row-nine">
+                    <td>449003</td>
+                    <td>Insurance Carrier</td>
+                    <td>curtis.weaver@example.com</td>
+                    <td>21 Sep, 2020</td>
+                    <td id="paid">Paid</td>
+                    <td>$10,000</td>
+                </tr>
+
+
+            </table>
+                    
+                  </tr>
+              </table>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
