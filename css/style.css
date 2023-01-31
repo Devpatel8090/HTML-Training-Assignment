@@ -92,32 +92,34 @@ input:hover {
   color: #c8242f;
   text-decoration: none;
 }
-
+@media (min-width: 1580px) {
+  .login__page {
+    margin-left: 140px;
+  }
+}
 
 @media (max-width: 360px) {
-  .main__container{
+  .main__container {
     display: flex;
     flex-direction: row;
-    background: #fafafa 0% 0% no-repeat padding-box
-    
+    background: #fafafa 0% 0% no-repeat padding-box;
   }
   .image__container {
-    margin:10px 0 10px 30px;
+    margin: 10px 0 10px 30px;
   }
 
-  .right__container{
+  .right__container {
     padding: 20px;
-    margin-left:60px ;
-   
+    margin-left: 60px;
   }
-/* 
+  /* 
   .main__text {
     color: #3e3e3e;
     font: normal normal 400 50px/51px Roboto;
     margin: 20px 90px 0 0;
   }
    */
-  
+
   ::placeholder {
     padding: 15px 0px 15px 15px;
     font: normal normal normal 24px/25px Roboto;
@@ -134,12 +136,5 @@ input:hover {
 
   .register_text {
     font: normal normal normal 20px/21px Roboto;
-  }
-}
-
-
-@media (min-width: 1580px) {
-  .login__page {
-    margin-left: 140px; 
   }
 }
