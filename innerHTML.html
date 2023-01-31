@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,49 +9,108 @@
 </head>
 <body>
     <nav class="navbar">
-        <img src="./images/HTML-Assignemnt-Assets/menu-bar.svg" alt="Menu" class="menu">
-        <img src="./images/HTML-Assignemnt-Assets/logo.svg" alt="Logo" class="logo">  
-        <img src="./images/HTML-Assignemnt-Assets/search-icon.svg" alt="Search" class="search">
-        <span class="searchText">Search</span>
-        <img src="./images/HTML-Assignemnt-Assets/notification-icon.svg" alt="notification" class="notification">
-        <img src="./images/HTML-Assignemnt-Assets/profile.png" alt="Profile" class="profile">
-        <span class="profileText">John Doe</span> 
-        <img src="./images/HTML-Assignemnt-Assets/downward-arrow.svg" alt="down" class="down">
-    </nav>
-
-    <div class="container">
+        <img
+          src="./images/HTML-Assignemnt-Assets/menu-bar.svg"
+          class="menu__bar"
+          alt="menubar icon"
+        />
+        <img
+          src="./images/HTML-Assignemnt-Assets/logo.svg"
+          class="logo"
+          alt="logo"
+        />
+      
+        <img 
+          src="./images/HTML-Assignemnt-Assets/search-icon.svg"
+          class="serch__icon"
+          alt="serch icon"
+        /> 
+        <span class="serch__text">Serch</span>
+       
+     
+        <img
+          src="./images/HTML-Assignemnt-Assets/notification-icon.svg"
+          alt="notification icon"
+          class="notification__icon"
+        />
+        <img
+          src="./images/HTML-Assignemnt-Assets/profile.png"
+          alt="profilte image"
+          class="profile__image"
+        />
+        <span class="johndoe__text">John Doe</span> 
+        <img
+          src="./images/HTML-Assignemnt-Assets/downward-arrow.svg"
+          alt="downword arrow "
+          class="downword__arrow"
+        />
+      </nav>
+      <div class="main__section">
         <aside>
-            <img src="./images/HTML-Assignemnt-Assets/dashboard-default.svg" alt="dashboard" class="analysisicon">
-            <span class="analysis">Dashboard</span><br>
-
-            <div class="selectOption">
-                <img src="./images/HTML-Assignemnt-Assets/graph-active.svg" alt="Analysis" class="img_dashboard">
-                <span class="dashboard">Analysis</span>
-            </div>
-
-            <img src="./images/HTML-Assignemnt-Assets/inbox-default.svg" alt="inbox" class="mail">
-            <span class="inbox">Inbox</span><br>
-
-            <img src="./images/HTML-Assignemnt-Assets/clock-default.svg" alt="History" class="history">
-            <span class="clock">History</span><br>
-
-            <img src="./images/HTML-Assignemnt-Assets/user-default.svg" alt="users" class="users">
-            <span class="user">Users</span><br>
-
-            <img src="./images/HTML-Assignemnt-Assets/maintenance-default.svg" alt="maintainance" class="maintenance">
-            <span class="maintainance">Maintenence</span><br>
-
-            <img src="./images/HTML-Assignemnt-Assets/setting-default.svg" alt="setting" class="settings">
-            <span class="setting">Setting</span>
+          <div class="box">
+            <img
+              src="./images/HTML-Assignemnt-Assets/dashboard-default.svg"
+              alt="dashboard icon"
+              class="dashboard__icon"
+            />
+            <span class="dashboard__text">Dashboard</span>
+          </div>
+          <div class="red__box">
+            <img
+              src="./images/HTML-Assignemnt-Assets/graph-active.svg"
+              alt="graph icon"
+              class="aside__icon"
+            />
+            <span class="Analysis__text">Analysis</span>
+          </div>
+          <div class="box">
+            <img
+              src="./images/HTML-Assignemnt-Assets/inbox-default.svg"
+              alt="inbox icon"
+              class="aside__icon"
+            />
+            <span class="inbox__text">Inbox</span>
+          </div>
+          <div class="box">
+            <img
+              src="./images/HTML-Assignemnt-Assets/clock-default.svg"
+              alt="clock icon"
+              class="aside__icon"
+            />
+            <span class="clock__text">History</span>
+          </div>
+          <div class="box">
+            <img
+              src="./images/HTML-Assignemnt-Assets/user-default.svg"
+              alt="users icon"
+              class="aside__icon"
+            />
+            <span class="users__text">Users</span>
+          </div>
+          <div class="box">
+            <img
+              src="./images/HTML-Assignemnt-Assets/maintenance-default.svg"
+              alt="maintenance icon"
+              class="aside__icon"
+            />
+            <span class="maintenance__text">Maintenance</span>
+          </div>
+          <div class="box">
+            <img
+              src="./images/HTML-Assignemnt-Assets/setting-default.svg"
+              alt="setting icon"
+              class="aside__icon"
+            />
+            <span class="setting__text">Setting</span>
+          </div>
         </aside>
-    </div>
 
     <div class="dashboardside">
         <div class="dashText">Analysis</div>
         <div class="workspace">
             <div class="oneColumn">One Column</div>
             <input type="text" class="txtname" placeholder="Name">
-            <select name="dropmenu" id="column" class="dropdown" placeholder="Dropdown">
+            <select name="dropmenu" id="column" class="dropdown">
                 <option value="Dropdown" class="placeholder">Dropdown</option>
                 <option value="1">Dropdown 1</option>
                 <option value="2">Dropdown 2</option>
@@ -62,10 +119,11 @@
             <textarea name="textArea" id="TextArea" placeholder="Multiple Line" class="textarea"></textarea>
             <div class="twoColumn">Two Column</div>
             <div>
-                <input type="text" name="" id="" placeholder="Name" class="txtnm"> 
-                <input type="text" name="" id="name" placeholder="Johndoe" class="txtnm">                 
-                <input type="password" name="" id="" placeholder="Password" class="password">
-                <select name="dropmenu" id="column" class="drop" placeholder="Dropdown">
+                <input type="text" placeholder="Name" class="txtnm"> 
+                <label for="uname1" class="username__text"> Username </label>
+                <input type="text" placeholder="Johndoe" class="txtnm" id="uname1">                 
+                <input type="password" placeholder="Password" class="password">
+                <select name="dropmenu" class="drop" placeholder="Dropdown">
                     <option value="Dropdown" class="placeholder">Dropdown</option>
                     <option value="1">Dropdown 1</option>
                     <option value="2">Dropdown 2</option>
@@ -74,30 +132,35 @@
             </div>
             <div class="threecolumn">Three Column</div>
             <div>
-                <input type="text" class="three1">
+                <label for="" class="focus__text"> Focus </label>
+                <input type="text" class="three1" autofocus>
+                <label for="" class="password__text"> Password </label>
                 <input type="password" class="three2" placeholder="• • • • • • • • • ">
-                <input type="text" class="three3">
+                <label for="" class="disabled__text"> Disabled </label>
+                <input type="text" class="three3" placeholder="johndoe">
             </div>
 
             <div class="forth">Four Column</div>
             <div>
-                <input type="text" class="one">                  
-                <input type="text" class="two">
-                <input type="text" class="three">
-                <select name="dropmenu" id="column" class="four" placeholder="Dropdown">
-                    <option value="Dropdown" class="drop4">Dropdown</option>
+                <label for="" class="designation__text"> Designation </label>
+                <input type="text" class="one" placeholder="UI Designer">                  
+                <input type="" class="two" placeholder="Name">
+                <label for="" class="forth__text"> Username </label>
+                <input type="text" class="three" placeholder="JohnDoe">
+                <select name="dropmenu" id="column" class="four">
+                    <option value="Dropdown" class="drop4">select</option>
                     <option value="1">Dropdown 1</option>
                     <option value="2">Dropdown 2</option>
                     <option value="3">Dropdown 3</option>
                 </select>
-                <label for="validdate" class="valid1" id="validdate">Enter valid data</label>
-                <label for="fullname" class="valid2" id="fullname">Enter your full name as per ID</label>
+                <label for="" class="valid1">Enter valid data</label>
+                <label for="" class="valid2">Enter your full name as per ID</label>
             </div>
 
             <div class="other">Other Design Elements</div>
             <div class="upload">File Upload</div>
             <div>
-                <button class="uploadbtn"><img src="./images/HTML-Assignemnt-Assets/cloud-upload-icon.svg" alt="" class="img1"><span class="uploadtext">Upload</span></button>
+                <button class="uploadbtn"><img src="./images/cloud-upload-icon.svg" alt="" class="img1"><span class="uploadtext">Upload</span></button>
                 <span class="selectItem">No Item Selected</span>
             </div>
 
@@ -105,9 +168,9 @@
                 <div class="radioText">Radio Button</div>
                 <div>
                     <form action="#">
-                        <input type="radio" id="red" name="opt" value="Option 1" class="radio1">
+                        <input type="radio" name="opt" value="Option 1" class="radio1" id="redr1">
                         <label for="html">Option 1</label>
-                        <input type="radio" id="red" name="opt" value="Option 2" class="space" checked>
+                        <input type="radio" name="opt" value="Option 2" class="space" checked id="redr2">
                         <label for="css">Option 2</label><br>
                     </form>
                 </div>
@@ -116,10 +179,10 @@
             <div>
                 <div class="chbox">Checkbox</div>
                 <div class="cbgroup">
-                    <form action="">
-                        <input type="checkbox" name="cbox" id="red" class="cb1">
+                    <form action="#">
+                        <input type="checkbox" name="cbox" class="cb1" id="redcb1">
                         <label for="" class="opt1">Option 1</label>
-                        <input type="checkbox" name="cbox" id="red" class="cb2" checked>
+                        <input type="checkbox" name="cbox" class="cb2" checked id="redcb2">
                         <label for="">Option 2</label>
                     </form>
                 </div>
@@ -168,7 +231,7 @@
             </div>
 
             <div class="random">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, cumque suscipit blanditiis rerum sapiente rem aut earum voluptate. Sed ipsa dicta exercitationem odit dolores eligendi animi esse praesentium eum ullam?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
             </div>
         </div>  
     </div>
